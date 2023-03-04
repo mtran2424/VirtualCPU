@@ -72,4 +72,5 @@ The CPU is a simulation of a architecture design architecture of our choosing. T
 - Only one 32 "bit" numerical datatype ("longword")
 
 Conclusion:
+---------------------------------------------------------------------------------------------------------------------
 The virtual CPU is a simple and excellent learning tool computer architecture concepts and machine language programming. It provides useful insight toward the process in which CPUs take in assembly instructions, convert them to machine language, read them into memory, and execute.
