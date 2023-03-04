@@ -2,9 +2,11 @@
 Virtual CPU is a Java-based program is a Java-based virtual machine simulating a basic RISC CPU architecture, capable of executing simple instructions in a virtual assembly language. This program was designed to assist in understanding concepts of computer architecture, instruction sets, machine language, and architecture design tradeoffs.
 
 Getting Started:
+---------------------------------------------------------------------------------------------------------------------
 To run the virtual CPU program, you will need java installed on your computer. With Java installed, you can use the assembler and CPU classes to run virtual assemly instructions. 
 
 Virtual Assembly Language:
+---------------------------------------------------------------------------------------------------------------------
 The virtual assembly language used by the CPU is a RISC instruction set. It includes basic intructions for moving data, arithmetic operations via an ALU, and control flow. The CPU has 16 named registers (R0-R15) and 21 available instructions.
 Here is a list of the available instructions:
 
@@ -52,6 +54,7 @@ Here is a list of the available instructions:
 - "return" : Returns to instruction at memory address on top of system stack. i.e. return
 
 Usage:
+---------------------------------------------------------------------------------------------------------------------
 In another Java file, you can use pass in instructions in a string array to the assembler to be assembled into "machine language" that can be loaded into the virtual CPU object and run.
 
 i.e.
@@ -62,6 +65,7 @@ example.preload(assembler.assemble(instructions));
 example.run();
 
 Limitations:
+---------------------------------------------------------------------------------------------------------------------
 The CPU is a simulation of a architecture design architecture of our choosing. Therefore there are some limitations:
 
 - The program memory is limited to a fixed size of 1024 "bytes"
